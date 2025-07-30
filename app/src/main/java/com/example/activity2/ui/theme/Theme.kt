@@ -19,3 +19,17 @@ private val LightColorScheme = lightColorScheme(
     primary = Color(0xFF006837),
     background = Color.White
 )
+
+@Composable
+fun Activity2Theme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    dynamicColor: Boolean = true,
+    content: @Composable () -> Unit
+)
+{
+
+}
+
+
+
+
