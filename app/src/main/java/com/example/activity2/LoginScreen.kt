@@ -75,6 +75,15 @@ fun LoginScreen() {
         color = Color.Blue
         )
 
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+
+        Text(
+            text = "20230140123"
+        )
+
+
     }
 }
 
