@@ -67,6 +67,14 @@ fun LoginScreen() {
             color = Color.Red
         )
 
+
+        Text(
+        text = "Ananda Agung Ismail",
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Blue
+        )
+
     }
 }
 
