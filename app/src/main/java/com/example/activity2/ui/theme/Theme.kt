@@ -38,6 +38,12 @@ fun Activity2Theme(
         else -> LightColorScheme
     }
 
+    MaterialTheme(
+        colorScheme = colorScheme,
+        typography = Typography,
+        content = content
+    )
+
 }
 
 
