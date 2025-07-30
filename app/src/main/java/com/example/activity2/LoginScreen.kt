@@ -45,6 +45,17 @@ fun LoginScreen() {
             style = TextStyle(fontSize = 16.sp, color = Color.Gray)
         )
 
+
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+
+        Image(
+            painter = painterResource(id = R.drawable.logo_umy),
+            contentDescription = "Logo Universitas",
+            modifier = Modifier.size(300.dp)
+        )
+
     }
 }
 
